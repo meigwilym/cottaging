@@ -1,0 +1,37 @@
+Date: Fri Jul 4 12:39:26 2014 +0100 Message: colour changes from grey to blue
+Date: Fri Jul 4 12:32:31 2014 +0100 Message: new homepage layout
+Date: Wed Jun 25 13:32:36 2014 +0100 Message: fix image upload bugs
+Date: Wed Jun 25 13:19:47 2014 +0100 Message: fix no record prices. now shows a default
+Date: Tue Jun 24 12:03:43 2014 +0100 Message: create new cottages
+Date: Mon Jun 23 22:31:14 2014 +0100 Message: set local environment; users table seeder
+Date: Mon Jun 23 21:34:16 2014 +0100 Message: production configs
+Date: Mon Jun 23 21:06:57 2014 +0100 Message: production config files
+Date: Wed Mar 19 15:13:01 2014 +0000 Message: reorder routes
+Date: Wed Mar 19 15:11:26 2014 +0000 Message: cottage repo and single view
+Date: Wed Mar 12 15:31:40 2014 +0000 Message: booking confirmation emails, and Intervention image lib
+Date: Wed Mar 12 15:09:24 2014 +0000 Message: remove stripe config from the repo
+Date: Tue Mar 11 11:03:31 2014 +0000 Message: front end for cottage edit upload and datetimes
+Date: Tue Mar 11 11:03:03 2014 +0000 Message: edit of cottage images and prices
+Date: Fri Mar 7 16:41:26 2014 +0000 Message: ignore the public slash media directory
+Date: Fri Mar 7 16:40:54 2014 +0000 Message: highlight booked nights on hover in calendar
+Date: Fri Mar 7 11:47:49 2014 +0000 Message: add uploaded files dir /media to gitignore
+Date: Thu Mar 6 10:47:12 2014 +0000 Message: main js file for app
+Date: Thu Mar 6 10:46:24 2014 +0000 Message: calendar renderer
+Date: Thu Mar 6 10:46:00 2014 +0000 Message: ignore netbeans project dir
+Date: Thu Mar 6 10:42:41 2014 +0000 Message: seed data
+Date: Mon Mar 3 15:20:07 2014 +0000 Message: temp logo
+Date: Mon Mar 3 14:58:59 2014 +0000 Message: database sample file
+Date: Mon Mar 3 14:54:18 2014 +0000 Message: deleted files
+Date: Mon Mar 3 14:49:38 2014 +0000 Message: config for packages
+Date: Mon Mar 3 14:49:16 2014 +0000 Message: bulk commit of everything
+Date: Thu Feb 27 21:22:19 2014 +0000 Message: migrations
+Date: Thu Feb 27 21:21:51 2014 +0000 Message: composer file
+Date: Fri Jan 10 11:36:28 2014 +0000 Message: move app.js to single from default
+Date: Fri Jan 10 11:35:59 2014 +0000 Message: prototype of cottages/all
+Date: Fri Jan 10 10:25:31 2014 +0000 Message: removed console.log()
+Date: Fri Jan 10 10:24:30 2014 +0000 Message: removed robbo presenter, added cartalyst sentry
+Date: Fri Jan 10 10:23:23 2014 +0000 Message: javascript calendar correctly displaying bookings
+Date: Fri Jan 10 10:20:34 2014 +0000 Message: seeds and migration files
+Date: Wed Jan 8 15:11:27 2014 +0000 Message: autoload helpers
+Date: Wed Jan 8 15:11:10 2014 +0000 Message: single page with cottage values and image gallery
+Date: Tue Jan 7 23:01:15 2014 +0000 Message: initial commit. booking display front end done

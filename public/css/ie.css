@@ -1,0 +1,6 @@
+/* ie styles */
+.datepicker table tr td.first_night,.datepicker table tr td.first_night:hover{
+background-image:url(../img/changeover.png);
+background-position: top left;
+background-repeat:no-repeat;
+}
