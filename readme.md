@@ -1,21 +1,69 @@
-## Laravel PHP Framework
+# Cottaging
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
+### An Accommodation Booking System
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+Here's an unfinished project of mine, built in late 2013. It was originally meant to power a holiday cottage website. 
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+It's based on the Laravel4 framework. It's coded using guidance mainly from Chris Fideao's excellent book, [Implementing Laravel](https://leanpub.com/implementinglaravel). 
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+The main dependency is Sentry for User management. Looking back it would have been easier to use Laravel's built in Auth. 
 
-## Official Documentation
+The majority of the site works. The front end is all there and a rudimentary admin system exists in the back end to see who's booked what and when. It also includes a system to add and update cottage
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+I'm particularly pleased with the jQuery driven availability calendar. 
 
-### Contributing To Laravel
+## Installation and setup
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+`composer install` should do the trick. 
 
-### License
+The `app/config` files should be filled in first. It has a `cottaging.php` file with details such as site name, admin & contact emails etc. 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+I've included the migrations and database seeders. Should be run in this order: 
+
+`artisan migrate --package=artalyst/sentry`
+`artisan migrate --seed`
+
+Seeds for prices and bookings are set to 2015/2016. You may want to edit these. 
+
+## Coding Style
+
+I'd do this different now. But this was back then. 
+
+Looking back on the code I realise it's not great, but it did what it was meant to and would have served an excellent base on which to build. 
+
+I use Laravel5.1 and so some of the ideas are outdated. 
+
+There's no front end dependency management either. So here's a list. Versions are what were used at the time. 
+
+#### JavaScript
+
+* Bootstrap 3.0.3
+* Bootstrap Datepicker https://github.com/eternicode/bootstrap-datepicker/
+* Dropzone.js
+* jQuery 1.10.2
+* jQuery CC Validator
+* jQuery Easing
+* jQuery Sequence 0.8.3 http://www.sequencejs.com
+* Galleria 1.3.3
+
+#### CSS
+
+These are all bundled with the above libs. 
+
+* Bootstrap
+* Datepicker
+* Dropzone
+* Sequence
+
+#### Fonts
+
+* FontAwesome
+* Glyphicons
+
+Feel free to fork, extend and improve. Please let me know if you do. 
+
+### Licence
+
+Released under the [MIT License](https://opensource.org/licenses/MIT). 
+
+[@meilyrg](http://twitter.com/meilyrg)
