@@ -12,6 +12,16 @@ The majority of the site works. The front end is all there and a rudimentary adm
 
 I'm particularly pleased with the jQuery driven availability calendar. 
 
+## Features
+
+A Cottage has a name, address, lat/lon location, description settings, features (on-to-many for advanced searching), images with drag 'n' drop upload, arrival days and default nightly/weekly prices. 
+
+Prices can be set for set periods of time, e.g. 1 May - 31 May £45/night or £270/week, then 1 June - 30 June £50/night or £270/week etc. These then override the defaults. 
+
+The availability calendar is a point and click booking calendar. Arrival and departure days are highlighted, the selected period is highlighted and booked periods cannot be selected. 
+
+A quote is immediately given, and a booking form shows. 
+
 ## Installation and setup
 
 `composer install` should do the trick. 
@@ -20,8 +30,8 @@ The `app/config` files should be filled in first. It has a `cottaging.php` file 
 
 I've included the migrations and database seeders. Should be run in this order: 
 
-`artisan migrate --package=artalyst/sentry`
-`artisan migrate --seed`
+    artisan migrate --package=artalyst/sentry
+    artisan migrate --seed
 
 Seeds for prices and bookings are set to 2015/2016. You may want to edit these. 
 
